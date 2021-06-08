@@ -10,7 +10,7 @@ def divide_version1(num1,num2):
         return 'Error - Input2 is not a number'
         
     # Check if the denominator number is greater than 0
-    if (num2 <= 0):
+    if (num2 == 0):
         # Denominator is 0 or lower, return error to user
         return 'Error - You cannot divide by 0. Please choose an appropriate denominator'
     
@@ -29,7 +29,7 @@ def divide_version2(num1,num2):
     else:
         
         # Check if the denominator number is greater than 0
-        if (num2 <= 0):
+        if (num2 == 0):
             # Denominator is 0 or lower, return error to user
             return 'Error - You cannot divide by 0. Please choose an appropriate denominator'
         
