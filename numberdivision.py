@@ -11,7 +11,7 @@ def divide_version1(num1,num2):
         
     # Check if the denominator number is greater than 0
     if (num2 == 0):
-        # Denominator is 0 or lower, return error to user
+        # Denominator is 0, return error to user
         return 'Error - You cannot divide by 0. Please choose an appropriate denominator'
     
     # Perform the devision
@@ -30,7 +30,7 @@ def divide_version2(num1,num2):
         
         # Check if the denominator number is greater than 0
         if (num2 == 0):
-            # Denominator is 0 or lower, return error to user
+            # Denominator is 0, return error to user
             return 'Error - You cannot divide by 0. Please choose an appropriate denominator'
         
         # Perform the devision
