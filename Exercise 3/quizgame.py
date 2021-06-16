@@ -59,7 +59,7 @@ def ask_rules_verification() :
 
 def ask_game_length() :    
     while True :
-        # Ask user if they are happy to follow the rules
+        # Ask user how many rounds they would like to play
         number = input("How many rounds would you like to play? [3 or 5]")
 
         if number == "3" or number == "5" :
